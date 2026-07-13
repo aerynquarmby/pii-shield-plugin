@@ -1,0 +1,15 @@
+{
+  "name": "piishield",
+  "description": "PII Shield — local-only PII redaction for Claude Code.",
+  "owner": { "name": "PII Shield", "url": "https://piishield.ai" },
+  "plugins": [
+    {
+      "name": "pii-shield",
+      "description": "Redacts personal data out of tool output before it reaches Claude, and restores it before Claude writes to disk. Runs entirely on your machine — nothing is sent to a redaction service.",
+      "author": { "name": "PII Shield", "url": "https://piishield.ai" },
+      "homepage": "https://piishield.ai",
+      "category": "security",
+      "source": "./plugin"
+    }
+  ]
+}

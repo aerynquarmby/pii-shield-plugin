@@ -1,0 +1,10 @@
+{
+  "name": "pii-shield",
+  "version": "0.1.6",
+  "description": "Redacts personal data out of tool output before it reaches Claude, and restores it before Claude writes to disk. Runs entirely on your machine \u2014 nothing is sent to a redaction service.",
+  "author": {
+    "name": "PII Shield",
+    "url": "https://piishield.ai"
+  },
+  "homepage": "https://piishield.ai"
+}
